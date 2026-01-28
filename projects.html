@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | Your Name</title>
+  <meta name="description" content="Case studies." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span><span>Your Name</span></a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="skills.html">Skills</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section class="section">
+      <h2>Projects / Case Studies</h2>
+      <p>Use this format: <b>Problem → Constraints → Actions → Results → Learnings</b>.</p>
+
+      <div class="list">
+        <article id="trsv" class="item">
+          <h3>TRSV Production Release</h3>
+          <div class="small">Role: Owner / Lead • Duration: X weeks • Stakeholders: Eng, Mfg, Supplier, Quality</div>
+          <ul>
+            <li><b>Problem:</b> Tool nearing final validation; needed closure + release readiness.</li>
+            <li><b>Constraints:</b> timeline, documentation completeness, supplier readiness.</li>
+            <li><b>Actions:</b> drove closure plan, aligned stakeholders, closed open items, managed deliverables.</li>
+            <li><b>Results:</b> production release within deadline; reduced uncertainty at handover.</li>
+            <li><b>Learnings:</b> what you improved for the next release cycle.</li>
+          </ul>
+        </article>
+
+        <article id="reliability" class="item">
+          <h3>Testing & Reliability Upgrade</h3>
+          <div class="small">Focus: repeatability • data quality • process improvement</div>
+          <ul>
+            <li><b>Problem:</b> inconsistent testing results / rework due to process gaps.</li>
+            <li><b>Actions:</b> improved checklist, measurement approach, failure documentation.</li>
+            <li><b>Results:</b> fewer iterations, clearer root cause analysis, faster decisions.</li>
+          </ul>
+        </article>
+
+        <article id="supplier" class="item">
+          <h3>Supplier Collaboration & Quality Alignment</h3>
+          <div class="small">Focus: welding / QA / acceptance criteria</div>
+          <ul>
+            <li><b>Problem:</b> mismatch between requirements and supplier process.</li>
+            <li><b>Actions:</b> clarified specs, aligned inspection plan, closed NCR drivers.</li>
+            <li><b>Results:</b> smoother builds, improved on-time delivery, reduced defects.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div>© <span id="year"></span> Your Name</div>
+        <div><a href="skills.html">Skills →</a></div>
+      </div>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Career portfolio: experience, projects, and skills." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="logo" aria-hidden="true"></span>
+          <span>Your Name</span>
+        </a>
+        <div class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="skills.html">Skills</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section class="hero">
+      <div class="card intro">
+        <div class="kicker"><span class="kicker-dot"></span> Mechanical / R&D Engineer • Oil & Gas</div>
+        <h1>Building reliable tools and systems — from validation to production release.</h1>
+        <p class="subhead">
+          I work on engineering delivery, supplier collaboration, testing/validation, and production readiness.
+          This portfolio highlights impact-focused projects and outcomes.
+        </p>
+
+        <div class="kpi" aria-label="Highlights">
+          <div class="box">
+            <div class="num">X+</div>
+            <div class="txt">Projects delivered</div>
+          </div>
+          <div class="box">
+            <div class="num">Y</div>
+            <div class="txt">Years in industry</div>
+          </div>
+          <div class="box">
+            <div class="num">Z%</div>
+            <div class="txt">Quality / cycle improvement</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="projects.html">View Projects</a>
+          <a class="btn" href="assets/YourName-Resume.pdf">Download Resume (PDF)</a>
+          <a class="btn" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <aside class="card side">
+        <div class="meta">
+          <div class="label">Current</div>
+          <div class="value">R&D Engineer – Completions Tools</div>
+        </div>
+        <div class="meta">
+          <div class="label">Location</div>
+          <div class="value">Singapore</div>
+        </div>
+        <div class="meta">
+          <div class="label">Focus Areas</div>
+          <div class="value">Validation • Supplier mgmt • Reliability • Release</div>
+        </div>
+        <div class="meta">
+          <div class="label">Links</div>
+          <div class="value">
+            <a href="#" target="_blank" rel="noreferrer">LinkedIn</a> •
+            <a href="#" target="_blank" rel="noreferrer">GitHub (optional)</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Featured Work</h2>
+      <p>Three quick examples. Full details in the Projects page.</p>
+
+      <div class="grid">
+        <article class="card tile span-4">
+          <h3>TRSV Production Release</h3>
+          <div class="small">Validation → release • Cross-functional execution</div>
+          <ul>
+            <li>Owned final validation closure and documentation.</li>
+            <li>Coordinated suppliers, manufacturing, and engineering.</li>
+            <li><b>Outcome:</b> released within timeline.</li>
+          </ul>
+          <div class="actions" style="margin-top:12px">
+            <a class="btn" href="projects.html#trsv">Read case study</a>
+          </div>
+        </article>
+
+        <article class="card tile span-4">
+          <h3>Testing & Reliability Upgrade</h3>
+          <div class="small">Test method • Root cause • Prevent recurrence</div>
+          <ul>
+            <li>Improved test repeatability and data quality.</li>
+            <li>Introduced a checklist/process to reduce misses.</li>
+            <li><b>Outcome:</b> reduced rework/iterations.</li>
+          </ul>
+          <div class="actions" style="margin-top:12px">
+            <a class="btn" href="projects.html#reliability">Read case study</a>
+          </div>
+        </article>
+
+        <article class="card tile span-4">
+          <h3>Supplier Collaboration</h3>
+          <div class="small">Welding/QA • Lead time • Fit-for-purpose</div>
+          <ul>
+            <li>Aligned requirements, inspections, and acceptance criteria.</li>
+            <li>Closed gaps between drawings, process, and delivery.</li>
+            <li><b>Outcome:</b> smoother builds, fewer NCRs.</li>
+          </ul>
+          <div class="actions" style="margin-top:12px">
+            <a class="btn" href="projects.html#supplier">Read case study</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Core Strengths</h2>
+      <div class="badges">
+        <span class="badge">Systems thinking</span>
+        <span class="badge">Validation & testing</span>
+        <span class="badge">Design-for-manufacture</span>
+        <span class="badge">Supplier management</span>
+        <span class="badge">Standards & compliance</span>
+        <span class="badge">Documentation & release</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div>© <span id="year"></span> Your Name</div>
+        <div><a href="contact.html">Get in touch</a></div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
